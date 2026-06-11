@@ -1,0 +1,13 @@
+# Dependencias — NUNCA subas esto al repositorio
+node_modules/
+# Variables de entorno — contienen datos secretos
+.env
+.env.local
+.env.production
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+# Archivos de build y cache
+dist/
+build/
+.cache/

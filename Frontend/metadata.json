@@ -1,0 +1,6 @@
+{
+  "name": "Programando en 20s",
+  "description": "Un electrizante juego de depuración y lógica de código contrarreloj con estética retro CRT, múltiples modos y soporte de audio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
