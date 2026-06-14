@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^powershell -NoProfile -Command \"Set-Location 'F:\\\\chase-main\\\\Frontend'; Write-Host 'package-lock\\.json:' \\(Test-Path 'package-lock\\.json'\\); Write-Host 'package-lock\\.backup:' \\(Test-Path 'package-lock\\.backup'\\); Write-Host 'install\\.log:' \\(Test-Path 'install\\.log'\\); Write-Host 'node_modules:' \\(Test-Path 'node_modules'\\); if \\(Test-Path 'node_modules'\\) \\{ Write-Host 'bin:' \\(Test-Path 'node_modules\\\\\\\\\\.bin'\\); Get-ChildItem 'node_modules\\\\\\\\\\.bin' -Force \\| Select-Object -ExpandProperty Name \\| ForEach-Object \\{ Write-Host \\$_ \\}; Write-Host 'tsxtype:' \\(Test-Path 'node_modules\\\\\\\\\\.bin\\\\\\\\tsx'\\); \\}\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
